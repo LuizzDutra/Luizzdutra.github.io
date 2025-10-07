@@ -21,11 +21,11 @@ header{
     }
 
     img{
-        height: 4vh;
-        width: 4vh;
+        height: 40px;
+        width: 40px;
     }
 
-    @media (max-width: 599px) {
+    @media (max-width: 800px) {
         padding-left: 0;
         padding-right: 0;
         justify-content: center;
@@ -44,7 +44,8 @@ body{
     font-size: 1rem;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
-    @media (max-width: 599px) {
+    @media (max-width: 800px) {
+
         margin-left: 5vw;
         margin-right: 5vw;
     }
@@ -85,11 +86,11 @@ body{
         word-break: normal;
     }
     img{
-        height: 25vh;
+        height: 250px;
         border-radius: 50%;
     }
 
-    @media (max-width: 599px) {
+    @media (max-width: 800px) {
         flex-direction: column;
         text-align: center;
         row-gap: -1.15rem;
