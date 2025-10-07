@@ -43,6 +43,11 @@ body{
     margin-right: 20vw;
     font-size: 1rem;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    @media (max-width: 599px) {
+        margin-left: 5vw;
+        margin-right: 5vw;
+    }
 }
 
 
