@@ -23,6 +23,11 @@ header{
     img{
         height: 40px;
         width: 40px;
+        transition: transform 0.2s;
+    }
+
+    img:hover{
+        transform: scale(1.2);
     }
 
     @media (max-width: 800px) {
@@ -42,7 +47,7 @@ body{
     margin-left: 20vw;
     margin-right: 20vw;
     font-size: 1rem;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 
     @media (max-width: 800px) {
 
@@ -61,10 +66,15 @@ button{
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 16px;
+    font-size: 1rem;
     margin: 4px 2px;
     cursor: pointer;
     border-radius: 12px;
+    transition: background-color 0.2s, transform 0.2s;
+}
+button:hover {
+    background-color: #1766cc;
+    transform: scale(1.05);
 }
 
 .tech{
@@ -118,9 +128,8 @@ button{
     display: flex;
     align-items: center;
     justify-content: left;
-    gap: 10vw;    
+    gap: 5vw;    
     font-size: 2rem;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
     div{
         display: flex;
@@ -145,9 +154,10 @@ button{
         text-align: left;
         font-size: 1.5rem;
         word-break: normal;
+        line-height: 1.2;
     }
     img{
-        height: 250px;
+        height: 300px;
         border-radius: 50%;
         margin-bottom: 0;
     }
@@ -164,7 +174,7 @@ button{
             text-align: center;
         }
         .desc{
-            text-align: center;
+            text-align: left;
         }
     }
 }
