@@ -54,7 +54,7 @@ body{
     margin-left: 20vw;
     margin-right: 20vw;
     font-size: 1rem;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: Consolas, monaco, monospace;
 
     @media (max-width: 800px) {
 
@@ -150,6 +150,7 @@ button:hover {
     padding: 10px; 
     padding-top: 2.5px;
     margin-bottom: 20px;
+    font-size: 1.25rem;
     h2{
      margin-bottom: 5px;
      margin-left: 5px;
@@ -162,6 +163,12 @@ button:hover {
         margin-right: 1vw;
         height: 66vh;
     }
+}
+
+.projects{
+  display: grid;
+  gap: 2vw;
+  grid-template-columns: auto auto;
 }
 
 
@@ -197,6 +204,9 @@ button:hover {
         font-size: 1.5rem;
         word-break: normal;
         line-height: 1.2;
+        b{
+          font-weight:800;
+        }
     }
     img{
         height: 300px;
